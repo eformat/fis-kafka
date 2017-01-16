@@ -14,10 +14,10 @@ endpoints:
     enabled: true
 
 zookeeper:
-  host: zookeeper
+  host: zookeeper.zookeeper.svc.cluster.local
   port: 2181
 kafka:
-  host: kafka
+  host: kafka.zookeeper.svc.cluster.local
   port: 9092
   topic: fis-kafka
   key: 0
